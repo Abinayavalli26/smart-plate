@@ -1,0 +1,32 @@
+FILES TO DOWNLOAD FOR SMARTPLATE DEPLOYMENT:
+
+1. ROOT FILES (copy these from the main folder):
+   - package.json
+   - package-lock.json  
+   - tsconfig.json
+   - vite.config.ts
+   - tailwind.config.ts
+   - postcss.config.js
+   - vercel.json
+   - components.json
+
+2. CLIENT FOLDER (copy entire folder):
+   - client/index.html
+   - client/src/ (entire folder with all subfolders)
+
+3. SERVER FOLDER (copy entire folder):
+   - server/index.ts
+   - server/routes.ts
+   - server/storage.ts
+   - server/vite.ts
+
+4. SHARED FOLDER:
+   - shared/schema.ts
+
+DEPLOYMENT STEPS:
+1. Create folder called "smartplate" on your computer
+2. Copy all files above into that folder (maintain folder structure)
+3. Upload to GitHub
+4. Deploy on Vercel
+
+Your app will then be live at: https://smartplate-[random].vercel.app
